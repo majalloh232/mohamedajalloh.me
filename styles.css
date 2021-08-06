@@ -20,7 +20,7 @@
             }
 
             li a {
-                display: block;
+                display: inline-block;
                 padding: 8px;
                 color: black;
                 text-align: center;
