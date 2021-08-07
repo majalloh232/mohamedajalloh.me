@@ -14,12 +14,12 @@
 
         }
       
-        body {
+body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     background-color: #ededed;
 }
-.nav {
+nav{
     background: #333;
 }
 
