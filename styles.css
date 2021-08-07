@@ -19,6 +19,9 @@
     font-weight: 400;
     background-color: #ededed;
 }
+.nav {
+    background: #333;
+}
 
 .page-footer {
     background-color: #000;
