@@ -108,6 +108,8 @@ nav ul li a{
     
     .page-footer .social a:hover {
         opacity: 0.75;
+        background: none;
+        color: #FFFFFF;
 }
 
 .page-footer ul {
