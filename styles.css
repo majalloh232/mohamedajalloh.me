@@ -83,61 +83,53 @@ nav ul li a{
     }
 }
 
-.page-footer {
-    background-color: #333;
-    padding: 40px;
-    
-}
 
-.page-footer .social {
+.footer{
+    padding: 40px 0;
+    background-color: #333;
+}
+.footer .social{
     text-align: center;
     padding-bottom: 25px;
-        }
-
-.page-footer .social a {
-    font-size: 25px;
-    color: #FFFFFF;
-    width: 40%;
+    color: #1583C5;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
     height: 40px;
-    line: height 38px;
+    line-height: 38px;
     display: inline-block;
     text-align: center;
+    border-radius: 50%;
     margin: 0 8px;
-   
-    }
-    
-    .page-footer .social a:hover {
-        opacity: 0.75;
-        background: none;
-        color: #FFFFFF;
+    opacity: 0.75;
 }
-
-.page-footer ul {
-    margin: 0;
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
     padding: 0;
     list-style: none;
-    text-align: center;
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 0;
-    
+    text-align: center;
 }
-
-.page-footer ul li {
-display: inline-block;
-padding: 0 15px;
-
+.footer ul li a{
+    color: #1583C5;
+    text-decoration: none;
+    opacity: 0 15px;
 }
-
-.page-footer: ul li a {
-    color: color: #1583C5;
-    text-decoraion: none;
-    opacity: 0.8;
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
 }
-
-.page-footer .copyright {
-margin-top: 15px;
-text-align: center;
-color: white;
-
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
 }
