@@ -110,16 +110,20 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    padding: 10px;
     font-size: 18px;
 }
-@media (max-width: 991px){
+@media (max-width: 992px){
     .contact{
-        padding: 50px;
+        padding: 40px;
     }
     .container{
         flex-direction: column;
     }
     .container .contactInfo{
         margin-bottom: 40px;
+    }
+    .container .contactInfo{
+        width: 100%;
     }
 }
