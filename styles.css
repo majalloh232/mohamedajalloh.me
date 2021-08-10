@@ -112,6 +112,7 @@ nav ul li a{
     transition: .5s;
 
 .footer .social a:hover{
+    background: none;
     opacity: 0.9;
 }
 .footer ul{
