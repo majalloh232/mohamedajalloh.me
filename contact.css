@@ -124,7 +124,8 @@
     .container .contactInfo{
         margin-bottom: 40px;
     }
-    .container .contactInfo .contactForm{
+    .container .contactInfo, 
+    .contactForm{
         width: 100%;
     }
 }
