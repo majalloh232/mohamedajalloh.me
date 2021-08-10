@@ -110,9 +110,8 @@ nav ul li a{
 .footer a:hover{
     background: grey;
     transition: .5s;
-
+}
 .footer .social a:hover{
-    background: none;
     opacity: 0.9;
 }
 .footer ul{
