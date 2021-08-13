@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .contact{
     position: relative;
     min-height: 100vh;
@@ -6,7 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(cont.jpg);
+    background: url('cont.jpg');
     background-size: cover;
 }
 .contact .content{
@@ -15,11 +28,10 @@
 }
 .contact .content h2{
     font-size: 36px;
-    font-weight: 500;
     color: #1583C5;
 }
 .contact .content p{
-    font-weight: 600;
+    font-weight: 500;
     color: white;
 }
 .container{
@@ -55,11 +67,22 @@
     font-size: 16px;
     color: white;
     flex-direction: column;
-    font-weight: 600;
+    font-weight: 700;
 }
 .container .contactInfo .box .text h3{
     font-weight: 700;
     color: #1583C5;
+}
+.container .contactInfo .box .text h4{
+    font-weight: 700;
+    color: #ff8000;
+    padding-top: 10px;
+}
+.container .contactInfo .box .text h5{
+    font-weight: 700;
+    color: #00ffff;
+    font-size: 16;
+    padding-top: 10px;
 }
 .contactForm{
     width: 40%;
@@ -111,7 +134,6 @@
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 10px;
     font-size: 18px;
 }
 @media (max-width: 991px){
@@ -124,8 +146,8 @@
     .container .contactInfo{
         margin-bottom: 40px;
     }
-    .container .contactInfo, 
+    .container .contactInfo,
     .contactForm{
-        width: 100%;
+        width: 100%
     }
 }
