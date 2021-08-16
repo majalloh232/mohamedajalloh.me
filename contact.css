@@ -7,9 +7,17 @@
 }
 
 body {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img-for-pages\mohamed-a-jalloh-contact.jpg);
+  background-size: cover;
+  background-position: top;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+    font-weight: 400;
+  }
 
 .contact{
     position: relative;
@@ -19,8 +27,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url('cont.jpg');
-    background-size: cover;
 }
 .contact .content{
     max-width: 800px;
@@ -75,13 +81,13 @@ body {
 }
 .container .contactInfo .box .text h4{
     font-weight: 700;
-    color: #ff8000;
+    color: #1583C5;
     padding-top: 10px;
 }
 .container .contactInfo .box .text h5{
     font-weight: 700;
-    color: #00ffff;
-    font-size: 16;
+    color: white;
+    font-size: 16px;
     padding-top: 10px;
 }
 .contactForm{
@@ -137,6 +143,9 @@ body {
     font-size: 18px;
 }
 @media (max-width: 991px){
+    body{
+        background-position: center;
+    }
     .contact{
         padding: 50px;
     }
