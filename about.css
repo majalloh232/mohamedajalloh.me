@@ -17,7 +17,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
   }
- 
+
   
 .section{
     width: 100%;
@@ -98,8 +98,4 @@ body {
     width: 100%;
     display: block;
     margin: auto;
-}
-.image-section{
-    float: none;
-    width: 100%;
 }
