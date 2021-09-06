@@ -60,61 +60,142 @@
         </div>
     </nav>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus cumque odio ratione illum aliquid expedita
-        blanditiis quas vel natus vitae, tempore, debitis veritatis. Temporibus illo provident atque ducimus ratione,
-        magnam
-        error expedita quisquam? Quam sint temporibus minima similique esse earum placeat? Sunt tenetur expedita ullam
-        amet
-        odit. Aut, illum sed?</p>
-
-
-
-
-    <footer class="text-center text-white bg-dark">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                    href="https://www.facebook.com/profile.php?id=100000412027148" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                    href="https://twitter.com/generalmaj232" role="button"><i class="fab fa-twitter"></i></a>
-
-                <!-- Instagram -->
-                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                    href="https://www.instagram.com/generalmaj232/" role="button"><i class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                    href="https://www.linkedin.com/in/mohamed-a-jalloh-27561417b/" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
-
-                <!-- Facebook -->
-                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                    href="https://www.youtube.com/channel/UCyPc6Cr3X5Nq11_oeG9xFEQ" role="button"><i
-                        class="fab fa-youtube"></i></a>
-            </section>
-            <!-- Section: Social media -->
+    <div class="container-fluid">
+        <div class="container">
+            <h1 class="text-center text-primary mt-5 mb-5 shadow-sm p-3">Contact Me</h1>
         </div>
-        <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
-            <a class="text-white" href="https://mohamedajalloh.me/">Mohamed A. Jalloh</a>
+        <div class="row">
+            <div class="col-md-7 shadow rounded p-5">
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="col mb-3">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email:</label>
+                    <input type="text" class="form-control" placeholder="name@email.com">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Subject</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Message:</label>
+                    <textarea name="" class="form-control" placeholder="Write Your Message Here" rows="3"></textarea>
+                </div>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+                    Submit
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Mohamed A. Jalloh</h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">Like, Comment and Subscribe</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-mdb-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="ml-3">
+                    <img src="contact.jpg" alt="image" class="image-fluid mx-auto d-block">
+                </div>
+            </div>
         </div>
-        <!-- Copyright -->
-    </footer>
 
 
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript"></script>
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+                    <h3 class="text-center pt-3 text-primary">Address</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lower Congo Water<br>Wellington<br>Freetown</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+                    <h3 class="text-center pt-3 text-primary">Phone</h3>
+                    <i class="fas fa-address-card"></i>
+                    <p>+232 79 408180<br>+232 31 020331</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+                    <h3 class="text-center pt-3 text-primary">Email</h3>
+                    <i class="fas fa-envelope"></i>
+                    <p>mohamed.a.jalloh@tpisent.sl<br>generalmaj232@gmail.com</p>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center text-white bg-dark">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.facebook.com/profile.php?id=100000412027148" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                        href="https://twitter.com/generalmaj232" role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Instagram -->
+                    <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.instagram.com/generalmaj232/" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.linkedin.com/in/mohamed-a-jalloh-27561417b/" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Facebook -->
+                    <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.youtube.com/channel/UCyPc6Cr3X5Nq11_oeG9xFEQ" role="button"><i
+                            class="fab fa-youtube"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Copyright:
+                <a class="text-white" href="https://mohamedajalloh.me/">Mohamed A. Jalloh</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+
+        <!-- MDB -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Custom scripts -->
+        <script type="text/javascript"></script>
 </body>
 
 </html>
