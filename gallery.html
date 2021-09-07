@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Gallery - mohamedajalloh.me</title>
+    <title>Subscribe - mohamedajalloh.me</title>
     <!-- MDB icon -->
     <link rel="icon" href="img\favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -15,6 +15,9 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,12 +26,8 @@
         .navbar-nav>li {
             padding: 5px;
         }
-
-        #intro {
-            background-image: url("home.jpg");
-            height: 100vh;
-        }
     </style>
+
 
     <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark text-white bg-dark">
         <div class="container-fluid">
@@ -52,10 +51,10 @@
                         <a class="nav-link" href="blog.html">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active bg-primary" href="gallery.html">GALLERY</a>
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="subscribe.html">SUBSCRIBE</a>
+                        <a class="nav-link active bg-primary" href="subscribe.html">SUBSCRIBE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">CONTACT</a>
@@ -66,69 +65,156 @@
     </nav>
 
 
-    <div id="intro" class="bg-image shadow-2-strong">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
-
-
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus cumque odio ratione illum aliquid
-                expedita
-                blanditiis quas vel natus vitae, tempore, debitis veritatis. Temporibus illo provident atque ducimus
-                ratione,
-                magnam
-                error expedita quisquam? Quam sint temporibus minima similique esse earum placeat? Sunt tenetur expedita
-                ullam
-                amet
-                odit. Aut, illum sed?</p>
-
-
-
-
-            <footer class="text-center text-white bg-dark">
-                <!-- Grid container -->
-                <div class="container p-4 pb-0">
-                    <!-- Section: Social media -->
-                    <section class="mb-4">
-                        <!-- Facebook -->
-                        <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                            href="https://www.facebook.com/profile.php?id=100000412027148" role="button"><i
-                                class="fab fa-facebook-f"></i></a>
-
-                        <!-- Twitter -->
-                        <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                            href="https://twitter.com/generalmaj232" role="button"><i class="fab fa-twitter"></i></a>
-
-                        <!-- Instagram -->
-                        <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                            href="https://www.instagram.com/generalmaj232/" role="button"><i
-                                class="fab fa-instagram"></i></a>
-
-                        <!-- Linkedin -->
-                        <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                            href="https://www.linkedin.com/in/mohamed-a-jalloh-27561417b/" role="button"><i
-                                class="fab fa-linkedin-in"></i></a>
-
-                        <!-- Facebook -->
-                        <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
-                            href="https://www.youtube.com/channel/UCyPc6Cr3X5Nq11_oeG9xFEQ" role="button"><i
-                                class="fab fa-youtube"></i></a>
-                    </section>
-                    <!-- Section: Social media -->
+    <section>
+        <div class="container">
+            <h1 class="fw-bold text-center text-primary display-4 pt-5">My Gallery</h1>
+            <div class="row" id="gallery">
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-2.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-2.jpg" alt="" class="img-fluid rounded">
+                    </a>
                 </div>
-                <!-- Grid container -->
 
-                <!-- Copyright -->
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                    © 2021 Copyright:
-                    <a class="text-white" href="https://mohamedajalloh.me/">Mohamed A. Jalloh</a>
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-1.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-1.jpg" alt="" class="img-fluid rounded">
+                    </a>
                 </div>
-                <!-- Copyright -->
-            </footer>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a.jalloh-tour-at-bunce-island-5.jpg">
+                        <img src="img-gallery\mohamed-a.jalloh-tour-at-bunce-island-5.jpg" alt=""
+                            class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-7.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-7.jpg" alt="" class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-birthday-pic1.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-birthday-pic1.jpg" alt="" class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-at-freedom-radio.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-at-freedom-radio.jpg" alt="" class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a.jalloh-tour-at-bunce-island-1.jpg">
+                        <img src="img-gallery\mohamed-a.jalloh-tour-at-bunce-island-1.jpg" alt=""
+                            class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-3.jpg.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-3.jpg" alt="" class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-4.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-4.jpg" alt="" class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-6.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-6.jpg" alt="" class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-at-alma-photography.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-at-alma-photography.jpg" alt=""
+                            class="img-fluid rounded">
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <a href="img-gallery\mohamed-a-jalloh-at-peppel-sierra-leone.jpg">
+                        <img src="img-gallery\mohamed-a-jalloh-at-peppel-sierra-leone.jpg" alt=""
+                            class="img-fluid rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-            <!-- MDB -->
-            <script type="text/javascript" src="js/mdb.min.js"></script>
-            <!-- Custom scripts -->
-            <script type="text/javascript"></script>
+
+    <footer class="text-center text-white bg-dark">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.facebook.com/profile.php?id=100000412027148" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                    href="https://twitter.com/generalmaj232" role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Instagram -->
+                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.instagram.com/generalmaj232/" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.linkedin.com/in/mohamed-a-jalloh-27561417b/" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Facebook -->
+                <a style="color: #1583C5;" class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.youtube.com/channel/UCyPc6Cr3X5Nq11_oeG9xFEQ" role="button"><i
+                        class="fab fa-youtube"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mohamedajalloh.me/">Mohamed A. Jalloh</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js">
+    </script>
+    <script>
+            Fancybox.bind("#gallery a", {
+                groupAll: true, // Group all items
+            on: {
+                ready: (fancybox) => {
+                console.log(`fancybox #${fancybox.id} is ready!`);
+                }
+            }
+        });
+    </script>
+
 </body>
 
 </html>
