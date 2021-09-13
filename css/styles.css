@@ -7,7 +7,6 @@
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
   --bs-blue: #0d6efd;
@@ -3556,7 +3555,7 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #212529;
+  color: white;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -11304,15 +11303,23 @@ h1, .h1 {
   line-height: 1;
 }
 
+p{
+  color: black;
+}
+
+li{
+  color: black;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  color: black;
 }
 
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
-  font-weight: 500;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
   font-size: 1.5rem;
 }
 
@@ -11347,6 +11354,7 @@ p.lead {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
+    color: white;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
@@ -11377,7 +11385,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #1583C5;
+  background-color: blue;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
